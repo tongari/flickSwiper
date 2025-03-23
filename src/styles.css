@@ -8,14 +8,6 @@
   margin: 0 auto;
 }
 
-.carousel-track {
-  display: flex;
-  width: 100%;
-  position: relative;
-  will-change: transform;
-  transition: transform 0.3s ease-in-out;
-}
-
 .carousel-slide {
   height: 150px;
   display: flex;
