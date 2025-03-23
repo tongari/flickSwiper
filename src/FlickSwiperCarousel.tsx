@@ -1,9 +1,9 @@
 // Flick comparison between translateX and scrollLeft (React)
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, EffectFade } from "swiper/modules";
+// import { Navigation, Pagination, EffectFade } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+// import "swiper/css/navigation";
+// import "swiper/css/pagination";
 import "./styles.css";
 
 export const FlickSwiperCarousel = () => {
@@ -27,11 +27,11 @@ export const FlickSwiperCarousel = () => {
 
   return (
     <Swiper
-      modules={[Navigation, Pagination]}
+      // modules={[Navigation, Pagination]}
       spaceBetween={0}
       slidesPerView={1}
-      navigation
-      pagination={{ clickable: true }}
+      // navigation
+      // pagination={{ clickable: true }}
       className="carousel-container"
     >
       {slides.map((slide, index) => (
